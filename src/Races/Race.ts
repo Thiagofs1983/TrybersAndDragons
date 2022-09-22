@@ -6,4 +6,12 @@ export default class Race {
     this._name = name;
     this._dexterity = dexterity;
   }
+
+  get name() {
+    return this._name;
+  }
+
+  get dexterity() {
+    return this._dexterity;
+  }
 }
